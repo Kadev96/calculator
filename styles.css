@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: #252424;
+}
+
+
+.title-base {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.title {
+    color: #83bb1b;
+    font-family: monospace;
+    font-weight: 660;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.calculator {
+    background-color: #1b1b1b;
+    width: 300px;
+    height: 450px;
+    padding: 2px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px 0 black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#display {
+    background-color: #020202;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    text-align: right;
+    font-size: 25px;
+    font-weight: 300;
+    width: 280px;
+    height: 80px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.calculatorButtons {
+    width: 55px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #252424;
+    color: #ffffff;
+    box-shadow: 0 4px #000000;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+.calculatorButtons:active {
+    transform: translateY(0.1vh);
+    box-shadow: 0 2px #cac5b6;
+}
+
+#cleanDisplay,
+#deleteDigit,
+#division,
+#multiplication,
+#subtraction,
+#sum,
+#result {
+    background-color: #100f0f;
+    color: #83bb1b;
+}
+
+#result {
+    height: 120px;
+}
+
+#num0 {
+    width: 130px;
+    background-color: #100f0f;
+    color: #83bb1b;
+}
+
+.foot {
+    padding: 32px;
+    background: #242424;
+    color: #5b5b5b;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
